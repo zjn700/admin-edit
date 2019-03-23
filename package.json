@@ -1,0 +1,30 @@
+{
+  "name": "admin-edit",
+  "private": true,
+  "version": "0.0.1",
+  "description": "admin-edit",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@ionic/core": "4.0.0",
+    "h2m": "^0.7.0",
+    "jodit": "^3.2.44",
+    "marked": "^0.6.1",
+    "simplemde": "^1.11.2",
+    "turndown": "^5.0.3"
+  },
+  "devDependencies": {
+    "@stencil/core": "0.18.1",
+    "@types/turndown": "^5.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0"
+  }
+}

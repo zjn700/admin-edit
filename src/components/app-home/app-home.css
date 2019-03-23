@@ -1,0 +1,24 @@
+.mystyle {
+  color: red;
+  font-size: 3rem;
+}
+
+.h2 {
+  font-size: 2rem;
+  color: red;
+  padding: 0.25rem;
+}
+
+.code {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #eeeeee;
+  color: black;
+  width: 80%;
+}
+/* span {
+  display: none;
+} */
